@@ -1,15 +1,15 @@
 # GSEA_pre-processing
-library(openxlsx)#读取.xlsx文件
-library(ggplot2)#柱状图和点状图
-library(stringr)#基因ID转换
-library(enrichplot)#GO,KEGG,GSEA
-library(clusterProfiler)#GO,KEGG,GSEA
-library(GOplot)#弦图，弦表图，系统聚类图
+library(openxlsx)
+library(ggplot2)
+library(stringr)
+library(enrichplot)
+library(clusterProfiler)
+library(GOplot)
 library(DOSE)
 library(ggnewscale)
-library(topGO)#绘制通路网络图
-library(circlize)#绘制富集分析圈图
-library(ComplexHeatmap)#绘制图例
+library(topGO)
+library(circlize)
+library(ComplexHeatmap)
 library(ggridges)
 library(readr)
 
